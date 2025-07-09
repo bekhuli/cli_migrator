@@ -2,3 +2,5 @@
 
 migrations/*
 !migrations/.gitkeep
+
+.idea
