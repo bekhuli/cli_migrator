@@ -40,7 +40,7 @@ func parseFields(raw string) []Field {
 		}
 		fields = append(fields, Field{
 			Name: pair[0],
-			Type: goTypeToPostgres(pair[0]),
+			Type: goTypeToPostgres(pair[1]),
 		})
 	}
 	return fields
